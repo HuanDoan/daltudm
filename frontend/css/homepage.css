@@ -1,0 +1,74 @@
+.icon{
+	font-size: 20px;
+	font-weight: 600;
+	color: #ee2b80;
+}
+
+.love_bar{
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	margin-top: -10px;
+	background-color: #ee2b80;
+	margin-bottom: 20px;
+	height: 30px;
+}
+#more{
+	font-weight: normal;
+}
+select{
+	border-radius: 30px !important;
+	height: 40px !important;
+	border: 1px solid #aaaaaa !important;
+	margin-bottom: 30px;
+}
+.love{
+	margin-bottom: 20px;
+}
+
+#NavMobile{
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+#NavMobile ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+}
+
+#NavMobile ul li{
+	display: inline-block;
+	width: 25%;
+	vertical-align: middle;
+	float: left;
+}
+
+#NavMobile ul li a{
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+	font-size: 40px;
+	text-transform: none;
+	color: #666;
+	line-height: 70px;
+}
+
+#NavMobile ul li a:hover,
+#NavMobile ul li a:focus,
+#NavMobile ul li a:active{
+	color: #ee2b80;
+}
+
+
+
+@media screen and (min-width: 768px){
+}
+@media screen and (min-width: 991px){
+}
