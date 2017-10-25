@@ -17,7 +17,7 @@ button:active{
 }
 
 button.btn-signinfb{
-	background-color: #6081c4;
+	background-color: #4267b2;
 	border: 1px solid #fff;
 	color: #fff;
 	text-transform: uppercase;
@@ -26,7 +26,7 @@ button.btn-signinfb{
 }
 
 button.btn-signinfb:hover{
-	background-color: #5774af;
+	background-color: #2e58ad;
 }
 
 button.btn-signin{
@@ -39,15 +39,16 @@ button.btn-signin{
 }
 
 button.btn-signin:hover{
-	background-color: #8306c1
+	background-color: #e02476;
 }
 button.logo{
 	color: #ed3d7a;
 	border: 1px solid #fff;
-	margin-top: 10px;
+	margin-top: 30px;
 	padding: 0px 10px;
 	border-radius: 100%;
-	height: 30px;
+	height: 40px;
+	width: 40px;
 }
 
 body > button{
@@ -60,7 +61,8 @@ body > button{
 	-webkit-transition: all 0.15s ease-in 0s;
 	   -moz-transition: all 0.15s ease-in 0s;
 		 -o-transition: all 0.15s ease-in 0s;
-			transition: all 0.15s ease-in 0s; 
+			transition: all 0.15s ease-in 0s;
+	width: 140px; 
 }
 
 .btn-signinfb i{
@@ -178,14 +180,14 @@ input{
 @media screen and (min-width: 991px){
 	.form-signin{
 		margin-top: 200px;
-		margin-left: 50px;
-		margin-right: 250px;
+		margin-left: 120px;
+		margin-right: 120px;
 	}
 	.form-signin p{
 		margin-top: 15px;
 	}
 	button.align-right:hover{
-	background-color: #8306c1
+	background-color: #e02476;
 	}
 	body > button{
 		background-color: #ed3d7a;
@@ -195,10 +197,10 @@ input{
 		 	 -o-transition: all 0.15s ease-in 0s;
 				transition: all 0.15s ease-in 0s; 
 	}
-	.intro .content-wrap  p{
-		margin-bottom: 100%;
+	.intro{
+		height: 100vh;
 	}
 	.intro .content-wrap h3{
-		margin-top: 200px;
+		margin-top: 120px;
 	}
 }
