@@ -8,10 +8,12 @@
 	font-size: 16px;
 	font-weight: 600;
 	color: #fff;
-	margin-top: -10px;
+	margin-top: -20px;
 	background-color: #ee2b80;
 	margin-bottom: 20px;
 	height: 30px;
+}
+.love_bar p{
 }
 #more{
 	font-weight: normal;
